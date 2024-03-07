@@ -1,99 +1,30 @@
 ---
-title: Markdown Examples
-date: 2021/3/19
+title: Who the hell am I ?
+date: 2024/3/06
 description: View examples of all possible Markdown options.
-tag: web development
-author: You
+tag: intro
+author: Kathan
 ---
 
 # Markdown Examples
 
-## h2 Heading
+## hii 👋, i am kathan.
 
-### h3 Heading
+- i like to work on new ideas.
 
-#### h4 Heading
+- I have built and launched over 5+ SaaS in last 8 months. 
 
-##### h5 Heading
+- Currently I am learning and working on Next.js, Tailwind CSS, Supabase, Prisma, NextAuth, OpenAI API and More.
 
-###### h6 Heading
+- My current passion includes talking, building and reading.
+  
+## You can connect with me here
 
-## Emphasis
+- [Twitter](https://twitter.com/kathanmehtaa)
+- [Linkedin](https://www.linkedin.com/in/iamkathan/)
+- [Figma](https://www.figma.com/@kathanmehta)
 
-**This is bold text**
+### Books I Constantly Follow
 
-_This is italic text_
-
-~~Strikethrough~~
-
-## Blockquotes
-
-> Develop. Preview. Ship. – Vercel
-
-## Lists
-
-Unordered
-
-- Lorem ipsum dolor sit amet
-- Consectetur adipiscing elit
-- Integer molestie lorem at massa
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-## Code
-
-Inline `code`
-
-```
-export default function Nextra({ Component, pageProps }) {
-  return (
-    <>
-      <Head>
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="RSS"
-          href="/feed.xml"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Inter-roman.latin.var.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-      </Head>
-      <Component {...pageProps} />
-    </>
-  )
-}
-```
-
-## Tables
-
-| **Option** | **Description**                                                                                                             |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
-| First      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
-| Second     | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
-| Third      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
-
-## Links
-
-- [Next.js](https://nextjs.org)
-- [Nextra](https://nextra.vercel.app/)
-- [Vercel](http://vercel.com)
-
-### Footnotes
-
-- Footnote [^1].
-- Footnote [^2].
-
-[^1]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^2]: Footnote text.
+- Rich Dad Poor Dad [^1]
+- The Four Hour Work Week [^2].
