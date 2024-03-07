@@ -1,9 +1,9 @@
 ---
-title: Who the hell am I ?
+title: who the hell i am?
 date: 2024/3/06
 description: View examples of all possible Markdown options.
 tag: intro
-author: Kathan
+author: kathan
 ---
 
 # Markdown Examples
@@ -12,7 +12,7 @@ author: Kathan
 
 - i like to work on new ideas.
 
-- i've built and launched over 5+ SaaS in last 8 months. 
+- i've built and launched over 5+ SaaS in last 8 months.
 
 - currently i am learning and working on Next.js, Tailwind CSS, Supabase, Prisma, NextAuth, OpenAI API and More.
 
