@@ -6,7 +6,6 @@ date: 2021-03-18
 
 # projects
 
-here are some projects i built 😄
 
 import Image from 'next/image' // Ensure Image component is properly imported
 
@@ -15,70 +14,40 @@ import Image from 'next/image' // Ensure Image component is properly imported
 {' '}
 <div
   style={{
-    flexBasis: 'calc(50% - 10px)',
     marginBottom: '20px',
     borderRadius: '10px',
-    overflow: 'hidden'
+    overflow: 'hidden',
+    alignItems: 'center',
   }}
+  className="flex justify-center mx-auto"
 >
-  <Image
-    src="/images/photo2.jpg"
-    alt="Photo"
-    width={562}
-    height={375}
-    priority
-    className="next-image"
-    style={{ transition: 'transform 0.2s', borderRadius: '10px' }}
-  />
-  [Unsplash ↗ ](https://unsplash.com/photos/WeYamle9fDM)
-</div>
-
-{' '}
-<div
-  style={{
-    flexBasis: 'calc(50% - 10px)',
-    marginBottom: '20px',
-    borderRadius: '10px',
-    overflow: 'hidden'
-  }}
->
-  <Image
-    src="/images/photo.jpg"
-    alt="Photo"
-    width={562}
-    height={375}
-    priority
-    className="next-image"
-    style={{ transition: 'transform 0.2s', borderRadius: '10px' }}
-  />
-  [Unsplash ↗ ](https://unsplash.com/photos/ndN00KmbJ1c)
-</div>
-
-    <div style={{ flexBasis: 'calc(50% - 10px)', marginBottom: '20px', borderRadius: '10px', overflow: 'hidden' }}>
+  <a href="https://github.com/DarkInventor?tab=repositories" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
     <Image
-      src="/images/photo.jpg"
-      alt="Photo"
-      width={562}
-      height={375}
+      src="https://ghicons.github.com/assets/images/blue/svg/GitHub%20CLI.svg"
+      alt="GitHub Icon"
+      width={50}
+      height={50}
       priority
-      className="next-image"
-      style={{ transition: 'transform 0.2s', borderRadius: '10px' }}
+      className="next-image flex justify-center mx-auto"
+      style={{ transition: 'transform 0.2s', borderRadius: '10px', marginRight: '10px' }}
     />
-    [Unsplash ↗ ](https://unsplash.com/photos/ndN00KmbJ1c)
+    <span style={{ fontWeight: 'bold' }}>please click here to visit my <u>Github</u> to see projects i've made.</span>
+  </a>
+  <a href="https://github.com/DarkInventor?tab=repositories" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
 
-  </div>
-  
-    <div style={{ flexBasis: 'calc(50% - 10px)', marginBottom: '20px', borderRadius: '10px', overflow: 'hidden' }}>
-    <Image
-      src="/images/photo.jpg"
-      alt="Photo"
-      width={562}
-      height={375}
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 335 276"
+      fill="#3ba9ee"
+      width={40}
+      height={40}
       priority
-      className="next-image"
-      style={{ transition: 'transform 0.2s', borderRadius: '10px' }}
-    />
-    [Unsplash ↗ ](https://unsplash.com/photos/ndN00KmbJ1c)
-  </div>
-
+      className="next-image flex justify-center mx-auto"
+      style={{ transition: 'transform 0.2s', borderRadius: '10px', marginRight: '20px', marginTop: '10px' }} 
+    >
+      <path d="m302 70a195 195 0 0 1 -299 175 142 142 0 0 0 97 -30 70 70 0 0 1 -58 -47 70 70 0 0 0 31 -2 70 70 0 0 1 -57 -66 70 70 0 0 0 28 5 70 70 0 0 1 -18 -90 195 195 0 0 0 141 72 67 67 0 0 1 116 -62 117 117 0 0 0 43 -17 65 65 0 0 1 -31 38 117 117 0 0 0 39 -11 65 65 0 0 1 -32 35"/>
+    </svg>
+    <span style={{ fontWeight: 'bold' }}>i like to #buildinpublic on twitter. please click here to checkout my <u>Twitter.</u></span>
+  </a>
+</div>
 </div>
